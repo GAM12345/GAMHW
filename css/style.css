@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
 }
@@ -13,10 +14,16 @@ main {
 
 }
 
-main hr {
-    width: 200px;
-}
 
+.titlenew h1{
+    color: white;
+    text-align: center;
+
+}
+.titlenew hr{
+    width: 200px;
+    color: white;
+}
 .contain {
     width: 100%;
     height: 300px;
@@ -172,19 +179,28 @@ main hr {
     left: -20px;
 }
 
+.name1 {
+    position: relative;
+    color: white;
+}
 .name2 {
     position: relative;
     left: 20px;
+    color: white;
 }
 
 .name3 {
     position: relative;
-    left: 30px
+    left: 30px;
+    color: white;
+
 }
 
 .name4 {
     position: relative;
     left: 40px;
+    color: white;
+
 }
 
 .nameng1 {
@@ -194,21 +210,29 @@ main hr {
     text-align: center;
     position: relative;
     left: -20px;
+    color: white;
+
 }
 
 .name6 {
     position: relative;
     left: 20px;
+    color: white;
+
 }
 
 .name7 {
     position: relative;
-    left: 30px
+    left: 30px;
+    color: white;
+
 }
 
 .name8 {
     position: relative;
     left: 40px;
+    color: white;
+
 }
 
 .contain3 {
@@ -216,7 +240,15 @@ main hr {
     height: 350px;
     background-color: black;
 }
+.contain3 h1{
+    color: white;
+    text-align: center;
 
+}
+.contain3 hr{
+    width: 200px;
+    color: white;
+}
 .imagebar {
     position: relative;
     top: 50px;
@@ -230,4 +262,265 @@ main hr {
     width: 250px;
     object-fit: contain;
 
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display';
+
+}
+.container{
+    width: 100%;
+    height: 730px;
+    background-color: #000;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+.season{
+    width: 55%;
+    height: 93px;
+    text-align: center;
+}
+.jacket{
+    width: 45%;
+    height: 730px;
+    background-image: url(../image/Rectangle8.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.watches{
+    display: flex;
+    justify-content: space-evenly;
+}
+.watches div{
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+}
+.watches div:hover{
+    background-color: rgb(158, 157, 157);
+}
+.watches div img{
+    padding: 55px 22px;
+}
+.watches div p{
+    color: white;
+    font-size: 18px;
+}
+.watches div a{
+    text-decoration: none;
+}
+.season-title{
+    padding-top: 93px;
+    text-align: center;
+}
+.season p{
+    color: white;
+    font-size: 36px;
+}
+.season img, .jacket img, .collect img{
+    padding-bottom: 35px;
+}
+.jacket p{
+    color: white;
+    font-size: 36px;
+    padding-top: 484px;
+}
+button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 12px 28px;
+}
+button:hover{
+    background-color: #000;
+}
+.container2{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    display: flex;
+}
+.container2 p{
+    color: white;
+}
+.suite{
+    width: 45%;
+    height: 600px;
+    background-image: url(../image/Rectangle\ 9\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.collection{
+    width: 55%;
+}
+.collection-title{
+    font-size: 36px;
+    text-align: center;
+}
+.collect{
+    padding: 10px 285px;
+    text-align: center;
+}
+.collect button:hover{
+    background-color: rgb(91, 89, 89);
+}
+.collection-text{
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+
+
+
+
+.porten{
+    height: 49px;
+    width: 104px;
+    padding-left: 20%;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    padding-right: 190px;
+} 
+.like, a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #969696;
+}
+.nav_menu a:hover{
+   color: white;
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #0F0F0F;
+    cursor: pointer;
+}
+.first_picture{
+    background-image: url(../image/Rectangle\ 3.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_block{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 500px;
+    top: 194px;
+
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.main_block_inside{
+    padding-top: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main_block_inside hr{
+    width: 150px;
+}
+.main_block_inside p {
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.description_text{
+    position: absolute;
+    width: 730px;
+    height: 96px;
+    left: 350px;
+    top: 600px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_picture{
+    background-image: url(../image/Rectangle\ 15.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    background-color: #0F0F0F;
+}
+.main_block2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 190px;
+}
+.first_block {
+    color: #FFFFFF;
+    width: 940px;
+    padding-left: 40px;
+}
+.first_block p {
+    font-size: 24px;
+}
+.first_block span{
+    font-size: 19px;
+}
+.second_block{
+    width: 1940px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 250px;
+}
+.second_block_buttons button{
+    width: 90px;
+    height: 41px;
+    background-color: #0F0F0F;
+    color: white;
+    padding: 10px 20px;
+}
+.third_block{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+.third_block p {
+    font-size: 24px;
+}
+.third_block span {
+    font-weight: 400;
+    font-size: 14px;
+}
+.third_block_input{
+    width: 210px;
+    height: 41px;
+}
+.third_block_button{
+    width: 140px;
+    height: 41px;
+    background-color: #0F0F0F;
+    color: white;
+}
+/* bottom */
+.bottom_of_site{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #0F0F0F;
+}
+.bottom_of_site p {
+    color: white;
+    padding-left: 45%;
 }
